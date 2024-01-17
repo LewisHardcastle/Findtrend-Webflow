@@ -285,7 +285,7 @@ body {
   justify-content: center; */
 
   /* align-items: center; */
-  height: 1596px;
+  height: 1460px;
   width: 100%;
 }
 
@@ -325,9 +325,10 @@ body {
   align-items: center;
   flex-direction: column;
   margin-top: 291px;
+  margin-bottom: 129px;
   width: 100%;
   height: 732px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .BG3-lower-text {
@@ -347,7 +348,7 @@ body {
 }
 
 .BG3-brands-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 1160px;
   height: 576px;
 
@@ -372,7 +373,49 @@ body {
   background: #fafafa;
   width: 100%;
   height: 2209px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.BG4-header {
+  width: 1160px;
+  height: 76px;
+  color: #000;
+  font-family: 'Inter';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 140px;
+  margin-bottom: 80px;
   flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.BG4-brands {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  width: 1160px;
+  height: 124px;
+}
+
+.BG4-brand-unit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 124px;
+  height: 124px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.BG4-brand-unit:nth-child(2) {
+  background: #a8ff35;
 }
 
 .BG5 {
