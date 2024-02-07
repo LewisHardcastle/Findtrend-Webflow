@@ -791,6 +791,11 @@ body {
   display: none;
 }
 
+.switch-container-outer-image,
+.switch-container-outer-text {
+  display: none;
+}
+
 @media screen and (max-width: 375px) {
   /* Panel 1 */
   .BG1 {
